@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    /* background: rgba(122, 157, 150, 0.3);*/
+    /*aliceblue url("../images/images23.jpeg") repeat;*/
+    width: 100%;
+    background-size: cover;
+    /* background: #f7f5f6;*/
+}
+
+header {
+    background: url("../images/transparent.jpg");
+    opacity: 1.0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    max-width: 100%;
+    z-index: 1;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 2;
+    padding: 2%;
+}
+
+h2 {
+    display: inline-block;
+    color: white;
+    font-size: 22px;
+    margin-left: 50px;
+    vertical-align: middle;
+    /* border-radius: 15px; */
+    text-align: center;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 28px;
+}
+
+.skillsheading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.titlespan {
+    /*font-family: 'Jim Nightshade', cursive;*/
+    font-size: 28px;
+}
+
+.box {
+    /* position: relative;
+    background: #edeff0;
+    background: rgb(210, 233, 249);*/
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgba(122, 157, 150, 0.1);
+}
+
+
+/*.dog-ear:before,
+.dog-ear:after {
+content: '';
+display: block;
+right: 0;
+top: 0;
+position: absolute;
+}
+.dog-ear:after {
+border-top: 65px solid transparent;
+border-left: 65px solid aliceblue;
+}*/
+
+.linkedIna {
+    /* font-family: 'proxima-nova', sans-serif;*/
+    /*color: rgba(0, 0, 0, 0.5);*/
+    color: whitesmoke;
+    margin: 0 auto;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.linkedIna:hover {
+    color: rgba(122, 157, 150, 1);
+    text-decoration: none;
+}
+
+.resumespan {
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 22px;
+    float: right;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 50px;
+}
+
+
+/*  background-size: cover;
+width: 100%;
+height: 30%;*/
+
+
+/*.firstsection {
+margin-top: 100px;
+background: #f7f5f6;
+width: 100%;
+height: 30%;
+background-size: cover;
+}*/
+
+.firstsection {
+    background: #f7f5f6;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutme {
+    width: 87%;
+    margin: 10px auto;
+}
+
+.aboutme-inner {
+    width: 97%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+.emailDes {
+    color: #301915;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.midsection {
+    background: #f7f5f6;
+    width: 100%;
+}
+
+.flexdesign {
+    width: 87%;
+    text-align: left;
+    margin: 40px auto;
+}
+
+.flexresp {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    /* Safari */
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* nested items stack vertically */
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    min-height: 40em;
+}
+
+.aflex {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+}
+img {
+    /* max-width: 100%;*/
+    /* display: block;*/
+    /* border: 5px solid #ccc;*/
+    /*transition: transform .2s ease-in-out;*/
+
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+}
+.aflex:hover img {
+    /* transform: scale(1.15);*/
+
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    transform: scale(1.15);
+}
+figure {
+    overflow: hidden;
+    position: relative;
+}
+figcaption {
+    /* margin-top: 15px;*/
+
+    background: rgba(0, 0, 0, 0.8);
+    display: table;
+    width: 310px;
+    height: 310px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin: 0 auto;
+}
+figcaption p {
+    display: table-cell;
+    color: white;
+    font-size: 14px;
+    top: -20px;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-left: 20px auto;
+    margin-right: 20px auto;
+    padding: 15%;
+    text-align: center;
+}
+.aflex:hover figcaption {
+    opacity: 1;
+}
+
+/*#viewDemo {
+width: 100%;
+height: 40px;
+font-size: 14px;
+background: #f7f5f6;
+border: 1px solid white;
+font-family: 'proxima-nova', sans-serif;
+}*/
+figcaption #viewDemo {
+    display: block;
+    width: 100px;
+    height: 35px;
+    vertical-align: middle;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 13px;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 25%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.9);
+}
+.listskills {
+    width: 100%;
+    background: #f7f5f6;
+}
+.listskills .skillset-wrapper {
+    width: 87%;
+    display: block;
+    margin: 1rem auto;
+}
+.listskills .skillset-wrapper .skillset {
+    display: inline-block;
+    width: 20%;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+.listskills .skillset-wrapper .skillset i {
+    width: 100%;
+    display: block;
+    font-size: 250%;
+}
+.listskills .skillset-wrapper .skillset span {
+    font-size: 87%;
+    width: 100%;
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+}
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    /*height: 35px;*/
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer span {
+    color: white;
+    font-size: 16px;
+    margin-left: 55px;
+    vertical-align: middle;
+}
+footer p {
+    color: white;
+    font-size: 16px;
+    float: right;
+    text-align: center;
+    margin-right: 55px;
+    vertical-align: middle;
+}
+@media screen and (min-width: 50em) {
+    .aflex {
+        /* width: calc(25% - 6px);*/
+    }
+
+    .aflex:nth-of-type(2n) {
+        margin-right: 8px;
+    }
+
+    .aflex:nth-of-type(4n) {
+        margin-right: 0;
+    }
+}
