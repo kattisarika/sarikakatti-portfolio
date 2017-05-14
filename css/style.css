@@ -52,7 +52,7 @@ h2 {
     display: inline-block;
     color: white;
     font-size: 22px;
-    margin-left: 50px;
+    margin-left: 60px;
     vertical-align: middle;
     /* border-radius: 15px; */
     text-align: center;
@@ -212,7 +212,7 @@ border-left: 65px solid aliceblue;
     float: right;
     vertical-align: middle;
     text-align: center;
-    margin-right: 50px;
+    margin-right: 60px;
 }
 
 
@@ -238,7 +238,7 @@ background-size: cover;
 }
 
 .aboutme {
-    width: 87%;
+    width: 88%;
     margin: 10px auto;
     text-align: left;
 }
@@ -264,7 +264,7 @@ background-size: cover;
 }
 
 .flexdesign {
-    width: 87%;
+    width: 88%;
     text-align: left;
     margin: 28px auto;
 }
@@ -379,7 +379,7 @@ figcaption #viewDemo {
     display: inline-block;
 }
 .listskills .skillset-wrapper {
-    width: 87%;
+    width: 88%;
     display: block;
     margin: 1rem auto;
 }
@@ -399,7 +399,7 @@ figcaption #viewDemo {
     font-size: 250%;
 }
 .listskills .skillset-wrapper .skillset span {
-    font-size: 87%;
+    font-size: 88%;
     width: 100%;
     display: block;
     color: rgba(0, 0, 0, 0.5);
