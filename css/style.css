@@ -266,7 +266,7 @@ background-size: cover;
 .flexdesign {
     width: 88%;
     text-align: left;
-    margin: 28px auto;
+    margin: 10px auto;
 }
 
 .flexresp {
@@ -289,8 +289,7 @@ background-size: cover;
 
 .aflex {
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
     margin-top: 20px;
 }
 
@@ -448,7 +447,7 @@ footer p {
 }*/
 @media only screen and (max-width: 1125px) {
     .aflex {
-        margin-left: auto;
+        /*  margin-left: auto;*/
         margin-right: auto;
     }
 }
