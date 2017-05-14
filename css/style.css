@@ -380,7 +380,8 @@ figcaption #viewDemo {
 .listskills .skillset-wrapper {
     width: 88%;
     display: block;
-    margin: 1rem auto;
+    text-align: left;
+    margin: 10px auto;
 }
 .listskills .skillset-wrapper .skillset {
     display: inline-block;
@@ -389,7 +390,7 @@ figcaption #viewDemo {
     text-align: left;
     line-height: 40px;
     text-align: left;
-    margin-left: 1%;
+    margin-left: 3px;
     margin-right: 1%;
 }
 .listskills .skillset-wrapper .skillset i {
@@ -414,7 +415,7 @@ footer {
 footer span {
     color: white;
     font-size: 16px;
-    margin-left: 55px;
+    margin-left: 87px;
     vertical-align: middle;
 }
 footer p {
