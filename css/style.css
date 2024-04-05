@@ -30,7 +30,8 @@ body {
 }
 
 header {
-    background: url("../images/transparent.jpg");
+  
+    background: #f7f5f6;
     opacity: 1.0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
